@@ -1,0 +1,24 @@
+{
+  "name": "crud-e",
+  "version": "1.0.0",
+  "description": "Crud pt2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogerSDlaR/CRUD-Estudiantes-Pt2.git"
+  },
+  "author": "Roger Salcedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogerSDlaR/CRUD-Estudiantes-Pt2/issues"
+  },
+  "homepage": "https://github.com/RogerSDlaR/CRUD-Estudiantes-Pt2#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
