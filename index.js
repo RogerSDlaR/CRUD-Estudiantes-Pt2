@@ -20,7 +20,7 @@ do {
     if (opcion === "1") {
         const nombre = readlineSync.question("Nombre: ");
         const edad = parseInt(readlineSync.question("Edad: "), 10);
-        const area = readlineSync.question("Área de estudio: ");
+        const area = readlineSync.question("Area de estudio: ");
         const calificaciones = {};
         let agregarOtra = "si";
         while (agregarOtra.toLowerCase() === "si") {

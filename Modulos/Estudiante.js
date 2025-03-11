@@ -1,17 +1,18 @@
 export class GestorEstudiantes {
     constructor() {
         this.estudiantes = [];
-        this.idActual = 1;
+        this.idCounter = 1;
     }
 
     agregarEstudiante(nombre, edad, area, calificaciones) {
-        this.estudiantes.push({
-            id: this.idActual++,
+        const estudiante = {
+            id: this.idCounter++,
             nombre,
             edad,
             area,
             calificaciones
-        });
+        };
+        this.estudiantes.push(estudiante);
     }
 
     listarEstudiantes() {
@@ -19,7 +20,9 @@ export class GestorEstudiantes {
     }
 
     buscarEstudiante(criterio) {
-        return this.estudiantes.find(est => est.id === Number(criterio) || est.nombre.toLowerCase() === criterio.toLowerCase()) || "Estudiante no encontrado";
+        return this.estudiantes.find(
+            est => est.id === parseInt(criterio) || est.nombre.toLowerCase() === criterio.toLowerCase()
+        );
     }
 
     obtenerEstudiantes() {
