@@ -28,37 +28,21 @@ Para ejecutar el programa, necesitas:
 
 1. Clonar el repositorio:
 
-\```sh
-
 git clone https://github.com/tu-usuario/tu-repo.git
-
-\```
 
 1. Navegar al directorio del proyecto:
 
-\```sh
-
 cd tu-repo
-
-\```
 
 1. Instalar dependencias:
 
-\```sh
-
 npm install
-
-\```
 
 \## Uso del Programa
 
 1. Ejecutar el programa:
 
-\```sh
-
 node index.js
-
-\```
 
 1. Se mostrará un menú en la consola donde podrás elegir entre las distintas opciones del CRUD y los reportes disponibles.
 
